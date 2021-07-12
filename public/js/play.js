@@ -136,6 +136,7 @@ $(document).ready(function() {
             document.getElementById("lives").innerHTML = "Congrats! Play again?";
         }
         showWord();
+        document.getElementById("submit").disabled = true;
     }
 
     // displays the entire word
