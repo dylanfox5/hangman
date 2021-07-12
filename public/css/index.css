@@ -1,0 +1,36 @@
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+#word {
+    margin: 0;
+    display: block;
+    padding: 0;
+}
+
+#word li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    padding-inline: 5px;
+    font-size: 150%;
+}
+
+.list-group{
+    max-height: 75px;
+    margin-bottom: 10px;
+    overflow-y: scroll;
+}
+
+.row {
+    margin: 5px;
+}
+
+canvas {
+    width: 200px;
+    height: 200px;
+}
